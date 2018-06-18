@@ -75,17 +75,14 @@ Navigation bar
       <li class="nav-item">
         <a class="nav-link" href="docs/index.html">Blockchain</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/tag_machine_learning/">Test</a>
-      </li>
-
-      <li class="nav-item hidden-md-up">
+      <!---hidden-md-up--->
+      <li class="nav-item ">
         <a class="nav-link" href="notifications/index.html">Notifications</a>
       </li>
-      <li class="nav-item hidden-md-up">
+      <li class="nav-item ">
         <a class="nav-link" data-action="growl">Growl</a>
       </li>
-      <li class="nav-item hidden-md-up">
+      <li class="nav-item ">
         <a class="nav-link" href="login/index.html">Logout</a>
       </li>
 
@@ -378,7 +375,7 @@ Navigation bar
             </li>
             <li class="list-group-item">
               <div class="media w-100">
-                <img class="media-object d-flex align-self-start mr-3" src="assets/img/avatar-mdo.png">
+                <img class="media-object d-flex align-self-start mr-3" src="assets/me.png">
                 <div class="media-body">
                   <button class="btn btn-secondary btn-sm float-right">
                     <span class="glyphicon glyphicon-user"></span> Follow
@@ -410,14 +407,15 @@ Main body
           <a href="profile/index.html">
             <img
               class="card-profile-img"
-              src="assets/img/avatar-dhg.png">
+              src="assets/me.png">
           </a>
 
           <h6 class="card-title">
             <a class="text-inherit" href="profile/index.html">Rhys Shea</a>
           </h6>
 
-          <p class="mb-4">Budding new software developer</p>
+          <p class="mb-4">Energy Trader</p>
+          <p class="mb-4">Software Developer</p>
 
           <!-- <ul class="card-menu">
             <li class="card-menu-item">
@@ -450,7 +448,8 @@ Main body
         </div>
       </div> -->
 
-       <div class="card visible-md-block visible-lg-block">
+      <!--- Photos section --->
+       <!-- <div class="card visible-md-block visible-lg-block">
         <div class="card-block">
           <h6 class="mb-3">Photos <small>· <a href="#">Edit</a></small></h6>
           <div data-grid="images" data-target-height="150">
@@ -480,7 +479,36 @@ Main body
           </div>
         </div>
       </div>
+      --->
+    <!--- Sidebar --->
+    <ul id="mysidebar" class="nav">
+      <li class="sidebarTitle">Machine Learning </li>
+
+      <li>
+          <a href="#">Machine Learning Resources</a>
+          <ul>
+              <li><a href="/machine-learning-resources/">Online Resources</a></li>
+              <li><a href="/machine-learning/journals-library/">Journal Library</a></li>
+              <li><a href="/machine-learning/datasets">Datasets for Machine Learning</a></li>
+          </ul>
+
+      <li>
+          <a href="#">Machine Learning Projects</a>
+          <ul>
+              <li><a href="/machine-learning-project-titanic-survival/">Titanic Survival Data Exploration</a></li>
+              <li class="active"><a href="/machine-learning-project-boston-home-prices/">Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)</a></li>
+          </ul>
+          <!-- if you aren't using the accordion, uncomment this block:
+             <p class="external">
+                 <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+             </p>
+             -->
+      </li>
+    </ul>
+
     </div>
+
+
 
     <!---
     Centre column
@@ -500,77 +528,7 @@ Main body
           </div>
         </li>
 
-        <li class="media list-group-item p-4">
-          <img
-            class="media-object d-flex align-self-start mr-3"
-            src="assets/img/avatar-dhg.png">
-          <div class="media-body">
-            <div class="media-heading">
-              <small class="float-right text-muted">4 min</small>
-              <h6>Dave Gamache</h6>
-            </div>
-
-            <p>
-              Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-
-            <div class="media-body-inline-grid" data-grid="images">
-              <div style="display: none">
-                <img data-action="zoom" data-width="1050" data-height="700" src="assets/img/unsplash_1.jpg">
-              </div>
-
-              <div style="display: none">
-                <img data-action="zoom" data-width="640" data-height="640" src="assets/img/instagram_1.jpg">
-              </div>
-
-              <div style="display: none">
-                <img data-action="zoom" data-width="640" data-height="640" src="assets/img/instagram_13.jpg">
-              </div>
-
-              <div style="display: none">
-                <img data-action="zoom" data-width="1048" data-height="700" src="assets/img/unsplash_2.jpg">
-              </div>
-            </div>
-
-            <ul class="media-list mb-2">
-              <li class="media mb-3">
-                <img
-                  class="media-object d-flex align-self-start mr-3"
-                  src="assets/img/avatar-fat.jpg">
-                <div class="media-body">
-                  <strong>Jacon Thornton: </strong>
-                  Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
-                </div>
-              </li>
-              <li class="media">
-                <img
-                  class="media-object d-flex align-self-start mr-3"
-                  src="assets/img/avatar-mdo.png">
-                <div class="media-body">
-                  <strong>Mark Otto: </strong>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="media list-group-item p-4">
-          <img
-            class="media-object d-flex align-self-start mr-3"
-            src="assets/img/avatar-fat.jpg">
-          <div class="media-body">
-            <div class="media-body-text">
-              <div class="media-heading">
-                <small class="float-right text-muted">12 min</small>
-                <h6>Jacob Thornton</h6>
-              </div>
-              <p>
-                Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-        </li>
+        
 
         <li class="media list-group-item p-4">
           <img
