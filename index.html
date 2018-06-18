@@ -75,14 +75,14 @@ Navigation bar
       <li class="nav-item">
         <a class="nav-link" href="docs/index.html">Blockchain</a>
       </li>
-      <!---hidden-md-up--->
-      <li class="nav-item ">
+
+      <li class="nav-item hidden-md-up">
         <a class="nav-link" href="notifications/index.html">Notifications</a>
       </li>
-      <li class="nav-item ">
+      <li class="nav-item hidden-md-up">
         <a class="nav-link" data-action="growl">Growl</a>
       </li>
-      <li class="nav-item ">
+      <li class="nav-item hidden-md-up">
         <a class="nav-link" href="login/index.html">Logout</a>
       </li>
 
@@ -103,7 +103,7 @@ Navigation bar
       </li>
       <li class="nav-item ml-2">
         <button class="btn btn-default navbar-btn navbar-btn-avatar" data-toggle="popover">
-          <img class="rounded-circle" src="assets/img/avatar-dhg.png">
+          <img class="rounded-circle" src="assets/me.jpg">
         </button>
       </li>
     </ul>
@@ -375,7 +375,7 @@ Navigation bar
             </li>
             <li class="list-group-item">
               <div class="media w-100">
-                <img class="media-object d-flex align-self-start mr-3" src="assets/me.png">
+                <img class="media-object d-flex align-self-start mr-3" src="assets/me.jpg">
                 <div class="media-body">
                   <button class="btn btn-secondary btn-sm float-right">
                     <span class="glyphicon glyphicon-user"></span> Follow
@@ -407,7 +407,7 @@ Main body
           <a href="profile/index.html">
             <img
               class="card-profile-img"
-              src="assets/me.png">
+              src="assets/me.jpg">
           </a>
 
           <h6 class="card-title">
@@ -480,31 +480,34 @@ Main body
         </div>
       </div>
       --->
+
     <!--- Sidebar --->
-    <ul id="mysidebar" class="nav">
-      <li class="sidebarTitle">Machine Learning </li>
+    <div class="card visible-md-block visible-lg-block">
+      <ul id="mysidebar" class="nav">
+        <li class="sidebarTitle">Machine Learning </li>
 
-      <li>
-          <a href="#">Machine Learning Resources</a>
-          <ul>
-              <li><a href="/machine-learning-resources/">Online Resources</a></li>
-              <li><a href="/machine-learning/journals-library/">Journal Library</a></li>
-              <li><a href="/machine-learning/datasets">Datasets for Machine Learning</a></li>
-          </ul>
+        <li>
+            <a href="#">Machine Learning Resources</a>
+            <ul>
+                <li><a href="/machine-learning-resources/">Online Resources</a></li>
+                <li><a href="/machine-learning/journals-library/">Journal Library</a></li>
+                <li><a href="/machine-learning/datasets">Datasets for Machine Learning</a></li>
+            </ul>
 
-      <li>
-          <a href="#">Machine Learning Projects</a>
-          <ul>
-              <li><a href="/machine-learning-project-titanic-survival/">Titanic Survival Data Exploration</a></li>
-              <li class="active"><a href="/machine-learning-project-boston-home-prices/">Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)</a></li>
-          </ul>
-          <!-- if you aren't using the accordion, uncomment this block:
-             <p class="external">
-                 <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-             </p>
-             -->
-      </li>
-    </ul>
+        <li>
+            <a href="#">Machine Learning Projects</a>
+            <ul>
+                <li><a href="/machine-learning-project-titanic-survival/">Titanic Survival Data Exploration</a></li>
+                <li class="active"><a href="/machine-learning-project-boston-home-prices/">Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)</a></li>
+            </ul>
+            <!-- if you aren't using the accordion, uncomment this block:
+               <p class="external">
+                   <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+               </p>
+               -->
+        </li>
+      </ul>
+    </div>
 
     </div>
 
@@ -528,7 +531,7 @@ Main body
           </div>
         </li>
 
-        
+
 
         <li class="media list-group-item p-4">
           <img
