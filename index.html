@@ -41,7 +41,11 @@
 
 <div class="growl" id="app-growl"></div>
 
-<nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-primary app-navbar">
+'''
+Navigation bar
+'''
+
+<nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-success app-navbar">
   <button
     class="navbar-toggler navbar-toggler-right hidden-md-up"
     type="button"
@@ -63,13 +67,13 @@
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="profile/index.html">Profile</a>
+        <a class="nav-link" href="profile/index.html">Languages</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="modal" href="#msgModal">Messages</a>
+        <a class="nav-link" data-toggle="modal" href="#msgModal">Machine Learning</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="docs/index.html">Docs</a>
+        <a class="nav-link" href="docs/index.html">Blockchain</a>
       </li>
 
       <li class="nav-item hidden-md-up">
@@ -84,6 +88,9 @@
 
     </ul>
 
+    '''
+    right side of nav bar
+    '''
     <form class="form-inline float-right hidden-sm-down">
       <input class="form-control" type="text" data-action="grow" placeholder="Search">
     </form>
@@ -385,9 +392,14 @@
   </div>
 </div>
 
-
+'''
+Main body
+'''
 <div class="container pt-4">
   <div class="row">
+    '''
+    Left column
+    '''
     <div class="col-lg-3">
       <div class="card card-profile mb-4">
         <div class="card-header" style="background-image: url(assets/img/iceland.jpg);"></div>
@@ -399,12 +411,12 @@
           </a>
 
           <h6 class="card-title">
-            <a class="text-inherit" href="profile/index.html">Dave Gamache</a>
+            <a class="text-inherit" href="profile/index.html">Rhys Shea</a>
           </h6>
 
-          <p class="mb-4">I wish i was a little bit taller, wish i was a baller, wish i had a girl… also.</p>
+          <p class="mb-4">Budding new software developer</p>
 
-          <ul class="card-menu">
+          <!-- <ul class="card-menu">
             <li class="card-menu-item">
               <a href="#userModal" class="text-inherit" data-toggle="modal">
                 Friends
@@ -416,13 +428,13 @@
               <a href="#userModal" class="text-inherit" data-toggle="modal">
                 Enemies
                 <h6 class="my-0">1</h6>
-              </a>
+              </a> -->
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="card visible-md-block visible-lg-block mb-4">
+      <!-- <div class="card visible-md-block visible-lg-block mb-4">
         <div class="card-block">
           <h6 class="mb-3">About <small>· <a href="#">Edit</a></small></h6>
           <ul class="list-unstyled list-spaced">
@@ -433,7 +445,7 @@
             <li><span class="text-muted icon icon-location-pin mr-3"></span>From <a href="#">Seattle, WA</a>
           </ul>
         </div>
-      </div>
+      </div> -->
 
        <div class="card visible-md-block visible-lg-block">
         <div class="card-block">
@@ -467,6 +479,9 @@
       </div>
     </div>
 
+    '''
+    Centre column
+    '''
     <div class="col-lg-6">
 
       <ul class="list-group media-list media-list-stream mb-4">
@@ -587,6 +602,10 @@
         </li>
       </ul>
     </div>
+
+    '''
+    Right column
+    '''
     <div class="col-lg-3">
       <div class="alert alert-warning alert-dismissible hidden-md-down" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
