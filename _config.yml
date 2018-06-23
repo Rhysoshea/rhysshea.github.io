@@ -1,3 +1,14 @@
 name: Rhys Shea, Programming Blog
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      layout: "default"
+      comments: true
+      search: true
+ 
