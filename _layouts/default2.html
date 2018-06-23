@@ -12,6 +12,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link href="assets/css/toolkit.css" rel="stylesheet">
+
     <link href="assets/css/application.css" rel="stylesheet">
 
     <style>
@@ -53,8 +54,8 @@ Navigation bar
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="https://rhysshea.com">
-      <h1 class="nav-link">rhysshea.com</h1>
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/brand-white.png" alt="brand">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -167,16 +168,16 @@ Main body
         <li>
             <a href="card-body text-primary">Machine Learning Resources</a>
             <ul>
-                <p><a href="/machine-learning-resources/">Online Resources</a></p>
-                <p><a href="/machine-learning/journals-library/">Journal Library</a></p>
-                <p><a href="/machine-learning/datasets">Datasets for Machine Learning</a></p>
+                <li><a href="/machine-learning-resources/">Online Resources</a></li>
+                <li><a href="/machine-learning/journals-library/">Journal Library</a></li>
+                <li><a href="/machine-learning/datasets">Datasets for Machine Learning</a></li>
             </ul>
 
         <li>
             <a href="card-body text-primary">Machine Learning Projects</a>
             <ul>
-                <p><a href="/machine-learning-project-titanic-survival/">Titanic Survival Data Exploration</a></p>
-                <p><a href="/machine-learning-project-boston-home-prices/">Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)</a></p>
+                <li><a href="/machine-learning-project-titanic-survival/">Titanic Survival Data Exploration</a></li>
+                <li class="active"><a href="/machine-learning-project-boston-home-prices/">Boston House Prices Prediction and Evaluation (Model Evaluation and Prediction)</a></li>
             </ul>
             <!-- if you aren't using the accordion, uncomment this block:
                <p class="external">
@@ -194,8 +195,42 @@ Main body
     <!---
     Centre column
     --->
-    <div class="post">
-      {{content}}
+    <div class="col-lg-9">
+
+      <ul class="list-group media-list media-list-stream mb-4">
+
+        <li class="media list-group-item p-4">
+          <img
+            class="media-object d-flex align-self-start mr-3"
+            src="assets/img/avatar-mdo.png">
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="float-right text-muted">34 min</small>
+              <h6>Mark Otto</h6>
+            </div>
+
+            <p>
+              Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+
+            <div class="media-body-inline-grid" data-grid="images">
+              <img style="display: none" data-width="640" data-height="640" data-action="zoom" src="assets/img/instagram_3.jpg">
+            </div>
+
+            <ul class="media-list">
+              <li class="media">
+                <img
+                  class="media-object d-flex align-self-start mr-3"
+                  src="assets/img/avatar-dhg.png">
+                <div class="media-body">
+                  <strong>Dave Gamache: </strong>
+                  Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
