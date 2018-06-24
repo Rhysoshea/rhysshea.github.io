@@ -1,5 +1,5 @@
 ---
-title: Rhys Shea
+title: Programming Blog
 # tags: [about]
 # sidebar: mydoc_sidebar
 type: homepage
@@ -25,6 +25,6 @@ Scikit-learn           | CSS                 |                |
  
 
 ## Credits
-I would like to thank Github Pages for serving this [respository](https://github.com/ritchieng/rhysoshea.github.io) of notes for free and providing support in setting up my site.
+I would like to thank Github Pages for serving this [respository](https://github.com/rhysoshea.github.io) of notes for free and providing support in setting up my site.
 
 I would like to give credit to the respective authors for their courses and materials online from Udemy, Udacity and Codecademy where my knowledge and projects have come from.
