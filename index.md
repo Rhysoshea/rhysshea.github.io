@@ -1,5 +1,6 @@
 ---
 title: Programming Blog
+layout: default
 # tags: [about]
 # sidebar: mydoc_sidebar
 # type: homepage
