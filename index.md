@@ -2,7 +2,7 @@
 title: Programming Blog
 # tags: [about]
 # sidebar: mydoc_sidebar
-type: homepage
+# type: homepage
 ---
 ## Welcome! 
 Currently I spend most of my time committing to programming projects. These projects have taken many forms, such as my [personal website](https://www.rhysshea.com), learning about the development of Blockchain, and the principles of machine learning, which I will discuss more on this [section](https://programming.rhysshea.com/machine_learning) of my blog.
