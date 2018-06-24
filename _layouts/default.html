@@ -11,8 +11,8 @@
       <title>{{page.title}}</title>
 
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-      <link href="css/toolkit.css" rel="stylesheet">
-      <link href="css/application.css" rel="stylesheet">
+      <link href="/css/toolkit.css" rel="stylesheet">
+      <link href="/css/application.css" rel="stylesheet">
 
       <style>
         /* note: this is a hack for ios iframe for bootstrap themes shopify page */
@@ -45,7 +45,7 @@
   Navigation bar
   -->
 
-  <nav style="padding:0px" class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-primary app-navbar">
+  <nav style = "padding:0px" class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-primary app-navbar">
     <div class="container">
       <button
         class="navbar-toggler navbar-toggler-right hidden-md-up"
@@ -104,7 +104,7 @@
           </li>
           <li class="nav-item ml-2">
             <button class="btn btn-default navbar-btn navbar-btn-avatar" data-toggle="popover">
-              <img class="rounded-circle" src="images/me.jpg">
+              <img class="rounded-circle" src="/images/me.jpg">
             </button>
           </li>
         </ul>
@@ -128,12 +128,12 @@
       -->
       <div class="col-lg-3">
         <div class="card card-profile mb-4">
-          <div class="card-header" style="background-image: url(images/IMG_20180517_084000-EFFECTS.jpg);"></div>
+          <div class="card-header" style="background-image: url(/images/IMG_20180517_084000-EFFECTS.jpg);"></div>
           <div class="card-block text-center">
             <a href="profile/index.html">
               <img
                 class="card-profile-img"
-                src="images/me.jpg">
+                src="/images/me.jpg">
             </a>
 
             <h6 class="card-title">
@@ -155,15 +155,16 @@
                 <a href="#userModal" class="text-inherit" data-toggle="modal">
                   Enemies
                   <h6 class="my-0">1</h6>
-                </a> -->
+                </a> 
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
 
 
       <!--- Sidebar -->
        <!-- <div class="card visible-md-block visible-lg-block border-primary mb-3"> -->
+      <div> 
         <ul>
         <!-- <ul id="mysidebar" class="nav">  -->
 
@@ -190,16 +191,15 @@
                 -->
           </li>
         </ul>
-      </div> -->
-
       </div>
+    </div>
 
 
 
       <!---
       Centre column
       -->
-      <div class="col-lg-3">
+      <div class="col-lg-9">
         <div>
         {{content}}
         </div>
@@ -208,18 +208,18 @@
   </div>
 
 
-      <script src="js/jquery.min.js"></script>
-      <script src="js/tether.min.js"></script>
-      <script src="js/chart.js"></script>
-      <script src="js/toolkit.js"></script>
-      <script src="js/application.js"></script>
-      <script>
-        // execute/clear BS loaders for docs
-        $(function(){
-          if (window.BS&&window.BS.loader&&window.BS.loader.length) {
-            while(BS.loader.length){(BS.loader.pop())()}
-          }
-        })
-      </script>
-    </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/toolkit.js"></script>
+    <script src="js/application.js"></script>
+    <script>
+      // execute/clear BS loaders for docs
+      $(function(){
+        if (window.BS&&window.BS.loader&&window.BS.loader.length) {
+          while(BS.loader.length){(BS.loader.pop())()}
+        }
+      })
+    </script>
+  </body>
 </html>
