@@ -1,4 +1,9 @@
 /* Style the buttons that are used to open and close the accordion panel */
+.accordion_container{
+    border-width: thin;
+    border-color: blue;
+}
+
 .accordion {
     background-color: #fff;
     color: #444;
@@ -6,7 +11,6 @@
     padding: 18px;
     width: 100%;
     text-align: left;
-    border: 2px;
     outline: none;
     transition: 0.4s;
 }
