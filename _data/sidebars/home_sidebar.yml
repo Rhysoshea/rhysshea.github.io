@@ -1,0 +1,29 @@
+entries:
+- title: Tags Sidebar
+  product: Tags
+  version:
+  levels: one
+  output: web
+  folders:
+
+  - title: Languages
+    output: web
+    folderitems:
+    - title: Python
+      url: /python/
+      output: web
+    - title: JavaScript
+      url: /javascript/
+      output: web
+  - title: Content
+    output: web
+    folderitems:
+    - title: Languages
+      url: /tag_languages/
+      output: web
+    - title: Machine Learning
+      url: /tag_machine_learning/
+      output: web
+    - title: Blockchain
+      url: /tag_blockchain/
+      output: web
