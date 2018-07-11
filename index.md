@@ -2,7 +2,7 @@
 title: Programming Blog
 layout: default
 # tags: [about]
-# sidebar: mydoc_sidebar
+sidebar: home_sidebar
 # type: homepage
 ---
 ## Welcome!
