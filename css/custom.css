@@ -21,8 +21,11 @@ div#mysidebar ul, li {
 #mysidebar {
     background-color: #FAFAFA;
 }
-.active{
-    
+#mysidebar a {
+    background-color: #FAFAFA;
+}
+#mysidebar > li.active > a {
+    background-color: #347DBE;
 }
 .subfolders {
 
