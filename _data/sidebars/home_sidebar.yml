@@ -1,6 +1,6 @@
 entries:
-- title: Tags Sidebar
-  product: Tags
+- title: Content
+  product: Content
   version:
   levels: one
   output: web
@@ -15,15 +15,10 @@ entries:
     - title: JavaScript
       url: /javascript/
       output: web
-  - title: Content
+  - title: Machine Learning
+    url: /tag_machine_learning/
     output: web
-    folderitems:
-    - title: Languages
-      url: /tag_languages/
-      output: web
-    - title: Machine Learning
-      url: /tag_machine_learning/
-      output: web
-    - title: Blockchain
-      url: /tag_blockchain/
-      output: web
+  - title: Blockchain
+    url: /tag_blockchain/
+    output: web
+
