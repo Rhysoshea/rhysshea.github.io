@@ -11590,13 +11590,18 @@ ul.typeahead-list > li > a {
   margin-top: 20px;
 }
     
+.with-top-navbar {
+    padding-top: 0px; 
+}
+
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.6;
   color: #292b2c;
   background-color: #f5f8fa; 
+  padding: 0px;
 }
 
 html {
@@ -11606,12 +11611,12 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* not changed */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
+  width: 100%;
   min-height: 1px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-inverse {
@@ -11632,9 +11637,9 @@ html {
 
 /* not changed */
 .btn-default {
-  color: none;
-  background-color: none;
-  border-color: none;
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
 }
 
 .btn {
@@ -11650,6 +11655,7 @@ html {
           user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem 1rem;
+  user-select: none;
   font-size: 1rem;
   border-radius: 0.25rem;
   -webkit-transition: all 0.2s ease-in-out;
@@ -11706,12 +11712,16 @@ html {
   padding-top: .25rem;
   padding-bottom: .25rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 12.5px;
   line-height: inherit;
+  height: inherit;
   white-space: nowrap; }
   .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none; }
-
+    
+.navbar-inverse .navbar-brand {
+    color: #fff; 
+}
 
 .form-inline {
   display: -webkit-box;
@@ -11914,7 +11924,7 @@ div#notebook {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   min-height: 100%;
-}    
+}  
 /*# sourceMappingURL=style.min.css.map */
     </style>
 <style type="text/css">
