@@ -1,6 +1,6 @@
 ---
 title: Predicting Boston House Prices
-layout: default
+layout: article
 keywords: machine_learning
 summary: "Predicting house prices in Boston based on several features"
 permalink: /machine_learning_boston_house_prices/
@@ -8466,15 +8466,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11224,7 +11224,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11659,7 +11659,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -11715,17 +11715,17 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
-</style> 
+</style>
 -->
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
@@ -11809,7 +11809,7 @@ div#notebook {
 <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;housing.csv&#39;</span><span class="p">)</span>
 <span class="n">prices</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;MEDV&#39;</span><span class="p">]</span>
 <span class="n">features</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;MEDV&#39;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
-    
+
 <span class="c1"># Success</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Boston housing dataset has </span><span class="si">{}</span><span class="s2"> data points with </span><span class="si">{}</span><span class="s2"> variables each.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">*</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
 </pre></div>
@@ -11891,7 +11891,7 @@ div#notebook {
 
 <span class="c1"># Show the calculated statistics</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Statistics for Boston housing dataset:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Minimum price: $</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">minimum_price</span><span class="p">))</span> 
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Minimum price: $</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">minimum_price</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Maximum price: $</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">maximum_price</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Mean price: $</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mean_price</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Median price $</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">median_price</span><span class="p">))</span>
@@ -11998,10 +11998,10 @@ Standard deviation of prices: $165171.13154429477
 <span class="k">def</span> <span class="nf">performance_metric</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_predict</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; Calculates and returns the performance score between </span>
 <span class="sd">        true and predicted values based on the metric chosen. &quot;&quot;&quot;</span>
-    
+
     <span class="c1"># TODO: Calculate the performance score between &#39;y_true&#39; and &#39;y_predict&#39;</span>
     <span class="n">score</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_true</span><span class="p">,</span> <span class="n">y_predict</span><span class="p">)</span>
-    
+
     <span class="c1"># Return the score</span>
     <span class="k">return</span> <span class="n">score</span>
 </pre></div>
@@ -12139,7 +12139,7 @@ Standard deviation of prices: $165171.13154429477
 
 <span class="c1"># TODO: Shuffle and split the data into training and testing subsets</span>
 <span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">features</span><span class="p">,</span> <span class="n">prices</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
-                                    
+
 <span class="c1"># Success</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Training and testing split was successful.&quot;</span><span class="p">)</span>
 </pre></div>
@@ -13602,7 +13602,7 @@ For the <code>fit_model</code> function in the code cell below, you will need to
 <span class="k">def</span> <span class="nf">fit_model</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; Performs grid search over the &#39;max_depth&#39; parameter for a </span>
 <span class="sd">        decision tree regressor trained on the input data [X, y]. &quot;&quot;&quot;</span>
-    
+
     <span class="c1"># Create cross-validation sets from the training data</span>
     <span class="c1"># sklearn version 0.18: ShuffleSplit(n_splits=10, test_size=0.1, train_size=None, random_state=None)</span>
     <span class="c1"># sklearn versiin 0.17: ShuffleSplit(n, n_iter=10, test_size=0.1, train_size=None, random_state=None)</span>
@@ -13875,7 +13875,7 @@ Range in prices: $69,044.61
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-Though this model has clearly worked for our purposes, in attempting to use the given parameters to predict house prices given new data points, there are several drawbacks that would need addressing before using this model in a real-world setting. 
+Though this model has clearly worked for our purposes, in attempting to use the given parameters to predict house prices given new data points, there are several drawbacks that would need addressing before using this model in a real-world setting.
 Firstly, the trial above is eye-opening as there is approximately a USD70,000 range in the prices between 10 trials alone. Of the prices given from the trials this is 16-20 percent variation in the prices which is far too large as this destroys any competitiveness the model has against other agents as there is no real consistency. To put this into today's context: "According to the Bureau of Labor Statistics consumer price index, the dollar experienced an average inflation rate of 3.45pct per year. Prices in 2017 are 275.4pct higher than prices in 1978." This means the approx. USD70,000 range equates to approx. USD240,000 today.
 The model can certainly be improved with additional parameters to further distinguish between properties on the market such as the presence of a pool, the plot area and possibly proximity to certain amennities and travel options. Though care should be taken not to overcomplicate the model. A study could be conducted to distinguish the most important parameters in pricing a house, though there are certainly more than the 3 used here that can be of use.
 I believe the model can be robust enough to make consistent predictions if it is trained on a sufficient amount of data such as the average of all the trials for example.
