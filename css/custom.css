@@ -31,9 +31,14 @@ thead {
 }
 th {
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
 }
 td {
   padding: 5px;
+  border: 1px solid;
+
 }
 
 div.sidebarTitle {
