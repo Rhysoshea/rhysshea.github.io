@@ -1,3 +1,46 @@
+body {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+}
+.navbar-container {
+  margin: auto;
+}
+.web-title {
+  font-size:15px;
+  display:block;
+  padding:10px 20px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 6px;
+  margin-bottom: 0.5rem;
+  font-weight:600px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: transparent;
+  border: 1px solid }
+
+tr {
+  border: 1px solid;
+}
+
+thead {
+  background-color: #8edb9a;
+}
+th {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+}
+td {
+  padding: 5px;
+  border: 1px solid;
+
+}
+
 div.sidebarTitle {
     color: #2FC19B;
 }
@@ -30,9 +73,9 @@ div#mysidebar ul, li {
 #mysidebar {
     background-color: #FAFAFA;
 }
-  
+
 .active{
-    
+
 }
 .subfolders {
 
