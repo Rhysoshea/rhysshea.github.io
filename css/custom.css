@@ -113,3 +113,16 @@ div#mysidebar ul, li {
 .panel p {
   margin-top:10px;
 }
+    
+table {
+  border-collapse: collapse;
+  background-color: transparent;
+  border: 1px solid }
+
+tr {
+  border: 1px solid;
+}
+
+thead {
+  background-color: #8edb9a;
+}
