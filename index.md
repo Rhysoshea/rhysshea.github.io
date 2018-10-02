@@ -30,6 +30,14 @@ I encourage you to read through my website as I will be discussing and sharing n
   </a>
 </div>
 
+### Notable Projects
+
+<a href="https://programming.rhysshea.com/machine_learning_quadcopter/" style = "margin: 20px; padding: 10px; ; ">
+  <img src="/images/quadcopter.jpg" style = "width: 300px; border-style: solid; border-width:thick;" />
+  <!-- <figcaption> Teach a quadcopter how to fly </figcaption> -->
+</a>
+
+
 
 ### Languages, Libraries, Frameworks and Technologies
 
