@@ -6,7 +6,8 @@ entries:
   output: web
   folders:
 
-  - title: Languages
+  - title: Programming
+    url: /tag_programming/
     output: web
     folderitems:
     - title: Python
@@ -21,4 +22,3 @@ entries:
   - title: Blockchain
     url: /tag_blockchain/
     output: web
-
