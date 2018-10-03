@@ -5,6 +5,7 @@ layout: default
 sidebar: home_sidebar
 # type: homepage
 ---
+
 ## Welcome!
 Currently I spend most of my time committing to programming projects. These projects have taken many forms, such as my [personal website](https://www.rhysshea.com), learning about the development of Blockchain, and the principles of machine learning, which I will discuss more in this [section](https://programming.rhysshea.com/machine_learning) of my blog.
 
@@ -30,12 +31,30 @@ I encourage you to read through my website as I will be discussing and sharing n
   </a>
 </div>
 
-### Notable Projects
 
-<a href="https://programming.rhysshea.com/machine_learning_quadcopter/" style = "margin: 20px; padding: 10px; ; ">
-  <img src="/images/quadcopter.jpg" style = "width: 300px; border-style: solid; border-width:thick;" />
-  <!-- <figcaption> Teach a quadcopter how to fly </figcaption> -->
-</a>
+### Main Features
+
+<div class="grid-container">
+  <!-- style in toolkit.css -->
+  <div class="grid-item">
+      <a href="https://programming.rhysshea.com/machine_learning_quadcopter/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+        <img src="/images/quadcopter.jpg" />
+        <div class = "text-block">
+          <p>Teaching a quadcopter how to fly</p>
+        </div>
+      </a>
+  </div>
+
+  <div class="grid-item">
+      <a href="https://programming.rhysshea.com/code_scrapbook/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+        <img src="/images/code.jpg" />
+        <div class = "text-block">
+          <p>Code Scrapbook</p>
+        </div>
+      </a>
+  </div>
+
+</div>
 
 
 
