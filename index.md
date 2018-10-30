@@ -54,6 +54,15 @@ I encourage you to read through my website as I will be discussing and sharing n
       </a>
   </div>
 
+  <div class="grid-item">
+      <a href="https://programming.rhysshea.com/gstore_deep_learning/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+        <img src="/images/gstore.jpg" />
+        <div class = "text-block">
+          <p>G-Store Kaggle Competition</p>
+        </div>
+      </a>
+  </div>
+
 </div>
 
 
