@@ -52,3 +52,12 @@ Use numpy to search a pandas dataframe for a specific term. Indices contains the
   x, _, y = (1, 2, 3) # x = 1, y = 3 
 ```
 The underscore can be used to ignore values when unpacking, rather than having to specify a variable that won't be used.
+
+<br/>
+
+``` python
+  zip and zip*
+```
+
+
+<br/>
