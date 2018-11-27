@@ -71,10 +71,10 @@ I encourage you to read through my website as I will be discussing and sharing n
 
 **Machine Learning**   | **Web Development** | **Others**     |
 ---------------------- | ------------------- | -------------- |
-Python                 | JavaScript          | SQL            |
+Python                 | JavaScript          | AWS            |
 Pandas                 | HTML                | Bash Scripting |
-Numpy                  | NodeJS              | MatLab         |
-Scikit-learn           | CSS                 | AWS            |
+Numpy                  | NodeJS              | SQL            |
+Scikit-learn           | CSS                 | MatLab         |
 Keras                  | Bootstrap           | MatplotLib     |
 TensorFlow             | Ruby                |                |
                        | Jekyll              |                |
