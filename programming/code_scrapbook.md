@@ -76,21 +76,65 @@ A NodeJS command line HTTP server tool for serving up local files at http://loca
 
 #### Bash
 
-'''
+```
 #!/bin/bash
-'''
-A script to delete all files older than 30 days in the given directory - useful when archiving data and clearing files
 
-'''
-.service and .timer files
-'''
-System daemon in linux used for scheduling scripts to run
+backup_path = /directory/to/backup
+bucket_name = name.of.backup
 
-'''
-systemctl
-'''
+aws s3 sync $backup_path s3://$bucket_name
+```
+A script to backup a directory to an Amazon AWS S3 storage. Can be used with a timer bash script to do this on a schedule
 
-'''
+```
+#!/bin/bash
+
+find /path/to/directory/ -type f -name '*.csv' -mtime +30 -exec rm {} \;
+
+find /path/to/directory/ -type d -empty -delete \;
+```
+First line finds file types with .csv extension and deletes them if they are older than 30 days.
+The second line finds directory types that are empty and removes them.
+
+#### Linux
+.service and .timer files are system daemons in linux used for scheduling scripts to run.
+Normally held in /etc/systemd/system
+
+``` linux
+[Unit]
+Description = run backup.py every day at 12:00pm
+
+[Service]
+WorkingDirectory = /working/directory/path
+User = root
+
+ExecStart = /usr/bin/python3.7m /working/directory/path/python_script/backup.py
+```
+This is the example.service file which contains the instructions for what to do i.e. using python3.7 the backup.py script will be executed
+
+``` linux
+[Unit]
+Description = run backup.py every day at 12:00pm
+
+[Timer]
+OnCalendar = *_*_* 12:00:00
+Persistent = false
+Unit = example.service
+
+[Install]
+WantedBy = multi-user.target
+```
+This is the example.timer file, which should have the same prefix as its associated service file. It specifies which service file to execute and at what time. The asterisks refer to year, month and date. A day such as 'Friday' can also be specified. If Persistent is true then if the system was turned off during a schedule execute then it will immediately run when switched back on.
+
+``` linux
+systemctl enable example.service
+systemctl disable
+systemctl start
+systemctl stop
+```
+commands used to enable and start the linux bash scripts
+
+``` linux
 journalctl -r
-'''
-List the system activity by most recent 
+```
+List the system activity by most recent events. Useful to use with systemctl 
