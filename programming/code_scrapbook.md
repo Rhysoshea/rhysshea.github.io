@@ -7,7 +7,7 @@ permalink: /code_scrapbook/
 tags: [programming]
 ---
 
-##### This is a list of useful code tidbits I have found useful during my learning. It can sometimes be difficult to remember exactly what that bit of code is that you used months ago, so this is a mixed bag of tools that hopefully others will also find useful.
+##### This is a list of code tidbits I have found useful during my learning. It can sometimes be difficult to remember exactly what that bit of code is that you used months ago, so this is a mixed bag of tools that hopefully others will also find useful.
 
 <br/>
 
@@ -137,4 +137,4 @@ commands used to enable and start the linux bash scripts
 ``` linux
 journalctl -r
 ```
-List the system activity by most recent events. Useful to use with systemctl 
+List the system activity by most recent events. Useful to use with systemctl

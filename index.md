@@ -32,7 +32,7 @@ I encourage you to read through my website as I will be discussing and sharing n
 </div>
 
 
-### Main Features
+### Projects
 
 <div class="grid-container">
   <!-- style in toolkit.css -->
@@ -59,6 +59,15 @@ I encourage you to read through my website as I will be discussing and sharing n
         <img src="/images/gstore.jpg" />
         <div class = "text-block">
           <p>G-Store Kaggle Competition</p>
+        </div>
+      </a>
+  </div>
+
+  <div class="grid-item">
+      <a href="https://medium.com/@rhysshea/my-first-solo-programming-project-db1f6c183c39" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+        <img src="/images/dashboard.png" />
+        <div class = "text-block">
+          <p>UK Energy Dashboard</p>
         </div>
       </a>
   </div>
