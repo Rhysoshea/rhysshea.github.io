@@ -37,6 +37,15 @@ I encourage you to read through my website as I will be discussing and sharing n
 <div class="grid-container">
   <!-- style in toolkit.css -->
   <div class="grid-item">
+      <a href="https://programming.rhysshea.com/data_structures_algorithms/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+        <img src="/images/quadcopter.jpg" />
+        <div class = "text-block">
+          <p>Data Structures and Algorithms</p>
+        </div>
+      </a>
+  </div>
+
+  <div class="grid-item">
       <a href="https://programming.rhysshea.com/machine_learning_quadcopter/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
         <img src="/images/quadcopter.jpg" />
         <div class = "text-block">

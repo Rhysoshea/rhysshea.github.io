@@ -13,8 +13,8 @@ entries:
     - title: Python
       url: /python/
       output: web
-    - title: JavaScript
-      url: /javascript/
+    - title: Algorithms
+      url: /algorithms/
       output: web
   - title: Machine Learning
     url: /tag_machine_learning/
