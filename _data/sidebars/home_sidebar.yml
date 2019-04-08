@@ -14,7 +14,7 @@ entries:
       url: /python/
       output: web
     - title: Algorithms
-      url: /algorithms/
+      url: /tag_algorithms/
       output: web
   - title: Machine Learning
     url: /tag_machine_learning/
