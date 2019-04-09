@@ -3,7 +3,7 @@ title: Data Structures and Algorithms
 layout: article
 keywords: programming
 summary: "My solutions to the Data Structures and Algorithms problems through Coursera."
-permalink: /code_scrapbook/
+permalink: /tag_algorithms/
 tags: [programming]
 ---
 
