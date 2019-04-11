@@ -10,7 +10,7 @@ tags: [algorithms]
 #### Problem statement
 
 ##### Find the most valuable combination of items assuming that any fraction of loot item can be put into the bag.
-```
+```cpp
 #include <iostream>
 #include <cassert>
 #include <random>
