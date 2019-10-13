@@ -19,6 +19,6 @@ entries:
   - title: Machine Learning
     url: /tag_machine_learning/
     output: web
-  - title: Blockchain
+  - title: CTF
     url: /tag_blockchain/
     output: web
