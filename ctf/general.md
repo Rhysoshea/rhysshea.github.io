@@ -61,4 +61,11 @@ Use PostBin to collect all requests to a special URL which you can use to test y
 --------------------------------
 
 ## [nmap](https://nmap.org/)
-Nmap is a free and open-source network scanner, used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection
+Nmap is a free and open-source network scanner, used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
+It also has a GUI application called zenmap.
+
+--------------------------------
+
+## [Metasploit] (https://www.metasploit.com/)
+The Metasploit Project is a computer security project that provides information about security vulnerabilities and aids in penetration testing and IDS signature development.
+It has a database of exploits in Postgresql that can be executed to gain access to vulnerable machines or networks.
