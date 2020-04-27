@@ -9,7 +9,7 @@ sidebar: home_sidebar
 ## Welcome!
 Currently I spend most of my time committing to programming projects. These projects have taken many forms, such as my [personal website](https://www.rhysshea.com), learning about the development of Blockchain, and the principles of machine learning, which I will discuss more in this [section](https://programming.rhysshea.com/machine_learning) of my blog.
 
-I encourage you to read through my website as I will be discussing and sharing new developments in these emerging technologies. I will also be writing about my experience from learning to code as a non computer science degree holder and lessons I have learned from teaching myself to program. Please also share any thoughts and feedback to my site as it is in and of itself a project of its own, so I am always trying to add improvements!
+I encourage you to read through my website as I will be discussing and sharing new developments in these emerging technologies. I will also be writing about my experience from learning to code as a non-computer science degree holder and lessons I have learned from teaching myself to program. Please also share any thoughts and feedback to my site as it is a project of its own, so I am always trying to add improvements!
 
 
 ### Online Profiles
@@ -36,6 +36,15 @@ I encourage you to read through my website as I will be discussing and sharing n
 
 <div class="grid-container">
   <!-- style in toolkit.css -->
+  <div class="grid-item">
+          <a href="https://programming.rhysshea.com/tag_algorithms/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+          <img src="/images/sorting_algo.gif" />
+          <div class = "text-block">
+            <p>Blog</p>
+          </div>
+        </a>
+    </div>
+
   <div class="grid-item">
         <a href="https://programming.rhysshea.com/tag_algorithms/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
         <img src="/images/sorting_algo.gif" />
