@@ -37,6 +37,15 @@ I encourage you to read through my website as I will be discussing and sharing n
 <div class="grid-container">
   <!-- style in toolkit.css -->
   <div class="grid-item">
+          <a href="https://programming.rhysshea.com/japan_trading_dashboard/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
+          <img src="/images/powerplant_outages.png" />
+          <div class = "text-block">
+            <p>Japan Trading Dashboard</p>
+          </div>
+        </a>
+    </div>
+
+  <div class="grid-item">
           <a href="https://programming.rhysshea.com/tag_blog/" style = "margin: 20px; margin-left: 0px; padding: 0px; ">
           <img src="/images/blog.jpg" />
           <div class = "text-block">
