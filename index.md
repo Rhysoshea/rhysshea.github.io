@@ -103,17 +103,24 @@ I encourage you to read through my website as I will be discussing and sharing n
 
 
 
-### Languages, Libraries, Frameworks and Technologies
+### Tech Stack
 
-**Machine Learning**   | **Web Development** | **Others**     |
+<div style = "margin:auto; margin-bottom:20px; display:block; width:500px align: left">
+    <img src="/images/python_logo.jpeg" width="80px"/>
+    <img src="/images/cpp_logo.png" width="80px"/>
+    <img src="/images/jamstack_logo.png" width="80px"/>
+    <img src="/images/docker_logo.jpg" width="80px"/>
+</div>
+
+
+**Languages**          | **Libraries**       | **Others**     |
 ---------------------- | ------------------- | -------------- |
-Python                 | JavaScript          | AWS            |
-Pandas                 | HTML                | Bash Scripting |
-Numpy                  | NodeJS              | SQL            |
-Scikit-learn           | CSS                 | MatLab         |
-Keras                  | Bootstrap           | MatplotLib     |
-TensorFlow             | Ruby                |                |
-                       | Jekyll              |                |
+Python                 | Pandas              | AWS            |
+JavaScript             | SciKit              | Bash Scripting |
+C++                    | Numpy               | SQL            |
+React                  | Keras + Tensorflow  | MatLab         |
+HTML5/CSS              | NodeJS              | MatplotLib     |
+Jekyll                 | Jekyll              | Docker         |
 
 
 ### Credits
