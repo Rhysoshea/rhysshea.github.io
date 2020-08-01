@@ -106,9 +106,9 @@ I encourage you to read through my website as I will be discussing and sharing n
 ### Tech Stack
 
 <div style = "margin:auto; margin-bottom:20px; display:block; width:500px align: left">
-    <img src="/images/python_logo.jpeg" height="100px"/>
+    <img src="/images/python_logo.png" height="100px"/>
     <img src="/images/cpp_logo.png" height="100px"/>
-    <img src="/images/docker_logo.jpg" height="100px"/>
+    <img src="/images/docker_logo.png" height="100px"/>
     <img src="/images/jamstack_logo.png" height="100px"/>
 
 </div>
