@@ -106,21 +106,22 @@ I encourage you to read through my website as I will be discussing and sharing n
 ### Tech Stack
 
 <div style = "margin:auto; margin-bottom:20px; display:block; width:500px align: left">
-    <img src="/images/python_logo.jpeg" height="80px"/>
-    <img src="/images/cpp_logo.png" height="80px"/>
-    <img src="/images/jamstack_logo.png" height="200px"/>
-    <img src="/images/docker_logo.jpg" height="80px"/>
+    <img src="/images/python_logo.jpeg" height="100px"/>
+    <img src="/images/cpp_logo.png" height="100px"/>
+    <img src="/images/docker_logo.jpg" height="100px"/>
+    <img src="/images/jamstack_logo.png" height="100px"/>
+
 </div>
 
 
 **Languages**          | **Libraries**       | **Others**     |
 ---------------------- | ------------------- | -------------- |
 Python                 | Pandas              | AWS            |
-JavaScript             | SciKit              | Bash Scripting |
+JavaScript             | SciKit              | Docker         |
 C++                    | Numpy               | SQL            |
 React                  | Keras + Tensorflow  | MatLab         |
 HTML5/CSS              | NodeJS              | MatplotLib     |
-Jekyll                 | Web scraping        | Docker         |
+Jekyll                 | Web scraping        | Bash Scripting |
 
 
 ### Credits
