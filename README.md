@@ -9,6 +9,7 @@ Programming section of personal website at www.rhysshea.com
 Built using Jekyll - a static site generator (written in Ruby)
 
 Using tagging, pages are created based on a default template and pull in resources with the corresponding tags
+
 For example a `%machine-learning%` tag will pull a sidebar, navigation bar, and a list of related articles for a taglogic contents table
 
 `_includes` 
@@ -23,7 +24,7 @@ For example a `%machine-learning%` tag will pull a sidebar, navigation bar, and 
 - contains well-formatted site data
 - this contains different sidebar information for varying sections of the site
 
-article data for different topics are stored in directories with corresponding names
+Article data for different topics are stored in directories with corresponding names
 - `algorithms`
 - `ctf`
 - `machine-learning`
